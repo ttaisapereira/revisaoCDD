@@ -1,0 +1,9 @@
+#7. Faça um código que receba o valor da base e da altura de um triângulo e
+# calcule sua área. usando a fórmula A = (base x Altura ) /2
+
+
+altura = float(input("Digite a altura do triangulo: "))
+base = float(input("Digite a base do triangulo: "))
+a = (base*altura)/2
+
+print(f'Altura {altura}, base {base} e seu cálculo é {a}')
